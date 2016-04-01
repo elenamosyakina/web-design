@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.intro {
+  width: 700px;
+  height: 500px;
+  background: rgb(196, 231, 154);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  width: 200px;
+  height: 40px;
+  background: rgb(20, 94, 23);
+  margin-bottom: 20px;
+}
+.paragraph {
+  width: 450px;
+  height: 50px;
+  background: rgb(148, 193, 96);
+}
+.items {
+  display: flex;
+}
+.item {
+  flex-direction: row;
+  width: 120px;
+  height: 120px;
+  background: rgb(71, 116, 19);
+  margin: 40px;
+}

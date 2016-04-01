@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  width: 700px;
+  height: 700px;
+  background: rgb(196, 231, 154);
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+  background: rgb(20, 94, 23);
+}
+.menu {
+  display: flex;
+}
+.menu-item {
+  flex-direction: row;
+  width: 40px;
+  height: 20px;
+  background: rgb(107, 154, 51);
+  margin: 5px;
+}
+.intro {
+  width: 100%;
+  height: 250px;
+  background: rgb(41, 77, 0);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.secondary {
+  display: flex;
+}
+.secondary-item {
+  width: 100%;
+  flex-grow: 1;
+  height: 150px;
+  background: rgb(41, 77, 0);
+  margin-right: 50px;
+}
+.secondary-item:last-child {
+  margin-right: 0;
+}
