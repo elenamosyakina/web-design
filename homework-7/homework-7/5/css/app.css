@@ -3,12 +3,10 @@
 }
 .main {
   width: 700px;
-  height: 600px;
   background: rgb(196, 231, 154);
 }
 .container {
   width: 700px;
-  height: 500px;
   padding: 40px;
 }
 .navbar {
