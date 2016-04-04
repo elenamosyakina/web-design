@@ -54,7 +54,6 @@
 .secondary-item {
   width: 60px;
   background: rgb(41, 77, 0);
-  margin-right: 5px;
   flex-grow: 1;
   margin-left: 60px;
 }

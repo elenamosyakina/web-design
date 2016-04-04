@@ -3,9 +3,9 @@
 }
 .main {
   width: 750px;
-  height: 400px;
   background: rgb(196, 231, 154);
   display: flex;
+  align-items: flex-end;
   padding: 40px;
 }
 .text {
@@ -44,4 +44,5 @@
   height: 240px;
   background: rgb(71, 116, 19);
   border-radius: 120px;
+  margin-left: 50px;
 }
